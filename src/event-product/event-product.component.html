@@ -1,3 +1,13 @@
-<p>
-event-product works!
-</p>
+<ng-container *ngIf="product">
+  <h1>
+    Event: {{ product.title }}
+  </h1>
+  <p>
+    {{ product.description }}
+  </p>
+  <span>
+    <b>
+      {{ product.date }}
+    </b>
+  </span>
+</ng-container>

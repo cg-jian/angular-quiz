@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EventProduct } from '../data/event-product';
 
 @Component({
   selector: 'app-event-product',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./event-product.component.css']
 })
 export class EventProductComponent implements OnInit {
+  product?: EventProduct;
 
   constructor() { }
 

@@ -11,7 +11,7 @@ import { ProductType } from '../data/product-type.enum';
 export class ProductComponent implements OnInit {
   readonly ProductType = ProductType;
 
-  @Input() product: PhysicalProduct | EventProduct | undefined;
+  product?: PhysicalProduct | EventProduct;
 
   constructor() {}
 
